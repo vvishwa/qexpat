@@ -6,6 +6,8 @@ Build:
 
 Install expat (probably it is already installed. at least on Mac is installed by the OS)  
 
+Download k.h: wget http://kx.com/q/c/c/k.h
+
 mac: `gcc -dynamiclib -undefined dynamic_lookup -m32 -lexpat -o expat.so expat.c`  
 linux: `gcc -shared -m32 -lexpat -o expat.so expat.c`  
 
